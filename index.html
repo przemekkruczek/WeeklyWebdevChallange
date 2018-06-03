@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weekly webdev challange</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style-css.css">
+</head>
+<body>
+	<header>
+		<img src="logo_1.png" alt="logo_1">
+	</header>
+	<main>
+		<section class="left">
+			<div class="register">
+				<h1>Register Form</h1>
+				<form action="#" class="register_form">
+					<div class="input_box first">
+						<div class="avatar">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="line"></div>
+						<input type="text" placeholder="Username" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-lock"></i>
+						</div>
+						<div class="line"></div>
+						<input type="password" placeholder="Password" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-lock"></i>
+						</div>
+						<div class="line"></div>
+						<input type="password" placeholder="Confirm password" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="line"></div>
+						<input type="email" placeholder="Email" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-map-marker"></i>
+						</div>
+						<div class="line"></div>
+						<select name="location" required>
+							<option disabled selected>Your location</option>
+							<option value="England">England</option>
+							<option value="US">US</option>
+							<option value="Poland">Poland</option>
+							<option value="Canada">Canada</option>
+						</select>
+					</div>
+					<div class="check_box">
+						<input type="checkbox" id="check" required>
+						<label for="check">I have read and accept the terms of use.</label>
+					</div>
+					<div class="btn_box">
+						<input type="submit" value="Sign up" class="btn-green btn-l">
+					</div>
+				</form>
+			</div>
+			<div class="send">
+				<h1>Send Email</h1>
+				<form action="#" class="send_form">
+					<div class="input_box first">
+						<div class="avatar">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="line"></div>
+						<input type="text" placeholder="You Name" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="line"></div>
+						<input type="email" placeholder="Email" required>
+					</div>
+					<div class="input_box_l">
+						<textarea name="text" cols="11" rows="9" placeholder="Type your message..." required></textarea> 
+					</div>
+					<div class="check_box">
+						<input type="checkbox" id="CheckEmail" required>
+						<label for="CheckEmail">Send a copy to my Email</label>
+					</div>
+					<div class="btn_box">
+						<input type="submit" value="Send Email" class="btn-green btn-l">
+					</div>
+				</form>
+			</div>
+			</section>
+		<section class="right">
+			<div class="sign">
+				<h1>Sign In Form</h1>
+				<form action="#" class="sign_form">
+					<div class="input_box first">
+						<div class="avatar">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="line"></div>
+						<input type="text" placeholder="Username" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-lock"></i>
+						</div>
+						<div class="line"></div>
+						<input type="password" placeholder="Password" required>
+					</div>
+					<div class="check_box">
+							<input type="checkbox" id="CheckSign" required>
+							<label for="CheckSign">Remember me</label>
+							<input type="submit" value="Sign in" class="btn-green btn-s">
+					</div>
+				</form>
+			</div>
+			<div class="recover">
+				<h1>Recover Form</h1>
+				<form action="#" class="recover_form">
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="line"></div>
+						<input type="email" placeholder="Email" required>
+					</div>
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="line"></div>
+						<input type="tel" placeholder="Enter your Phone number" required>
+					</div>
+					<div class="send_box">
+							<input type="submit" value="Send" class="btn-green btn-m">
+							<button type="button" class="btn-green btn">Done</button>
+					</div>
+				</form>
+			</div>
+			<div class="subscribe">
+				<h1>Subscribe Form</h1>
+				<form action="#" class="subscribe_form">
+					<div class="input_box">
+						<div class="avatar">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="line"></div>
+						<input type="email" placeholder="Email" required>
+					</div>
+					<div class="send_box">
+							<input type="submit" value="Subscribe" class="btn-green btn-m">
+							<button type="button" class="btn-red btn-m">No, Thanks</button>
+					</div>
+				</form>
+			</div>
+			<div class="bot_logo">
+				<img src="logo_2.png" alt="logo_2">
+			</div>
+		</section>
+	</main>		
+</body>
+</html>
